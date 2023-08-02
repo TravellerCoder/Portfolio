@@ -1,0 +1,155 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220509/pngtree-vector-background-in-the-concept-of-technology-image_1344201.jpg);
+    background-size: cover ;
+    background-size: 2000px;
+    
+}
+
+
+p {
+    font-family: 'Comic sans ms', sans-serif;
+    font-size: 35; 
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'raleway', 'sans-serif';
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color:antiquewhite;
+    
+}
+
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-blend-mode: color-burn;
+    border-radius: 12px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.perfil img{
+    border-radius:25px;
+    margin-top: 25px;
+}
+
+.perfil p{
+    font-family: 'raleway', 'sans-serif';
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color:antiquewhite;
+    
+    
+}
+
+.traveller-coder{
+    width: 90%;
+    background-blend-mode: color-burn;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.traveller-coder p{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'raleway', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color:antiquewhite;
+}
+
+.traveller-coder p:hover{
+    transition: 100ms;
+    font-size: 35px;
+}
+
+.skills{
+    width: 90%;
+    background-blend-mode: color-burn;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.skills-icons{
+    display: flex;
+    align-items: center;
+    flex-direction:row ;
+    justify-content: space-around;
+}
+
+.proyectos{
+    width: 90%;
+    background-blend-mode: color-burn;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.proyectos h3{
+    font-family: 'raleway', 'sans-serif';
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color:antiquewhite;
+}
+
+.proyectos p{ 
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'raleway', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color:antiquewhite;
+}
+
+.mototire{
+    width: 200px;
+    height: 70px;
+    border-radius: 7px;
+}
+.contacto{
+    width: 90%;
+    background-blend-mode: color-burn;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.contacto-links{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 15%;
+    margin: 10px;
+
+}
+
+.copyrigth p {
+    display: flex;
+    justify-content: center;
+    font-family: 'raleway', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: antiquewhite;
+}
