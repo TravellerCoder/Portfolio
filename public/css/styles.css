@@ -8,10 +8,8 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220509/pngtree-vector-background-in-the-concept-of-technology-image_1344201.jpg);
-    background-size: cover ;
-    background-size: 2000px;
-    
+    background: center  repeat  url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?w=1380&t=st=1700052700~exp=1700053300~hmac=8f22ce581ff654af7c19262bd37598b8a2ce066f482d841ff198581cb70095ea);
+    ;
 }
 
 
@@ -19,6 +17,7 @@ p {
     font-family: 'Comic sans ms', sans-serif;
     font-size: 35; 
     font-style: italic;
+    text-align: center;
 }
 
 h2 {
@@ -26,8 +25,9 @@ h2 {
     font-size: 50px;
     font-weight: bold;
     font-style: italic;
-    color:antiquewhite;
-    
+    color: 
+    white;
+    text-align: center;
 }
 
 
@@ -65,7 +65,7 @@ h2 {
 
 .traveller-coder p{
     display: flex;
-    text-align: justify;
+    text-align: center;
     padding: 10px;
     font-family: 'raleway', 'sans-serif';
     font-size: 20px;
