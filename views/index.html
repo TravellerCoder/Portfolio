@@ -15,7 +15,43 @@
 </head>
 
 <body>
+    <!-- SECCION PERFIL -->
+     <!-- SECCION INICIO -->
+     <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#conoceme" onclick="seleccionar()">
+                                
+                                <span>Conoceme</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skills" onclick="seleccionar()">
+                                
+                                <span>Skills</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#proyectos" onclick="seleccionar()">
+                                
+                                <span>Proyectos</span>
+                            </a></li>
+                        
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">
+                                
+                                <span>Contactame</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
 
+            </div>
+        </header>
     <div class="caja-principal contenedor">
         <article class="perfil">
             <img src="images/logo-1.png" alt='foto de perfil' width=200px>
@@ -23,7 +59,7 @@
                 Desarrollador Web Full Stack</p>
         </article>
     </div>
-    <div class="caja-principal contenedor ">
+    <div id="conoceme" class="caja-principal contenedor ">
         <article class='traveller-coder'>
             <h2>Conoceme</h2>
             <p>Soy Guillermo Bukowski, desarrollador web y viajero en casa rodante. Con el desarrollo financio mi
@@ -34,7 +70,7 @@
             </p>
         </article>
     </div>
-    <div class="caja-principal contenedor">
+    <div id='skills' class="caja-principal contenedor">
         <article class='skills'>
             <h2>Skills</h2>
             <div class='skills-icons'>
@@ -47,19 +83,23 @@
             </div>
         </article>
     </div>
-    <div class="caja-principal contenedor">
+    <div id="proyectos" class="caja-principal contenedor">
         <article class='proyectos'>
             <h2>Proyectos </h2>
-            <div class='Moto Tire'>
-                <h3> Moto Tire</h3>
+            <div class='Proyecto-detail'>
+                <a href="https://github.com/TravellerCoder/grupo_10_MotoTIRE" target="blank"> <h3> Moto Tire</h3> </a>
                 <p>Proyecto integrador de cursada de Desarrollo Web Full Stack en Digital House<br>
                     E-commerse, en Javascript, con base de datos de usuarios y productos, con perfil de usuario y de
                     administrador. </p>
-                <a href="https://github.com/TravellerCoder/grupo_10_MotoTIRE" target="blank"><img class="mototire"
-                        src="images/MainLogoPNG.png" width="100px"> </a>
+                
+            </div>
+            <div class='Proyecto-detail'>
+                <a href="https://exquis-menu.onrender.com/" target="blank"> <h3> Exquis</h3> </a>
+                <p>Modelo de carta de un restaurante </p>
+            </div>
         </article>
     </div>
-    <div class="caja-principal contenedor">
+    <div id="contacto" class="caja-principal contenedor">
         <article class='contacto'>
             <h2>Contactame</h2>
             <div class="contacto-links">

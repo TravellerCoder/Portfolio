@@ -8,9 +8,61 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    background: center  repeat  url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?w=1380&t=st=1700052700~exp=1700053300~hmac=8f22ce581ff654af7c19262bd37598b8a2ce066f482d841ff198581cb70095ea);
-    ;
+    background-color: rgb(31, 30, 30) 
 }
+#inicio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#inicio header{
+    width: 100%;
+}
+#inicio header .contenido-header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+
+}
+#inicio header .contenido-header nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: flex-end;
+}
+#inicio header .contenido-header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+#inicio header .contenido-header nav ul li{
+    text-align: left;
+}
+#inicio header .contenido-header nav ul li i{
+    display: block;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+}
+#inicio header .contenido-header nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:#a8a8a8;
+    margin: 0px 20px;
+    font-size: 35px;
+    font-family: 'raleway', 'sans-serif';
+}
+
+#inicio header .contenido-header nav ul li a span{
+    font-family: 'raleway', 'sans-serif';
+    font-style: italic;
+    font-weight: bold;
+}
+
+
 
 
 p {
@@ -58,7 +110,8 @@ h2 {
 
 .traveller-coder{
     width: 90%;
-    background-blend-mode: color-burn;
+    background-color: #ffffff05;
+    backdrop-filter: blur(5px);
     border-radius: 12px;
     margin: 0 auto;
 }
@@ -106,6 +159,7 @@ h2 {
     font-weight: bold;
     font-style: italic;
     color:antiquewhite;
+    text-decoration: none;
 }
 
 .proyectos p{ 
