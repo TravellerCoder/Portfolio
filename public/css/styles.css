@@ -8,7 +8,8 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: rgb(31, 30, 30) 
+    background-image: url(../images/portfolio-fondo.jpg); 
+    background-size: cover;
 }
 #inicio{
     height: 100vh;
@@ -159,6 +160,9 @@ h2 {
     font-weight: bold;
     font-style: italic;
     color:antiquewhite;
+}
+
+.proyectos a{
     text-decoration: none;
 }
 
@@ -209,9 +213,9 @@ h2 {
 }
 
 @media (max-width: 769px){
-    skills-icons {
-        display: inline;
-        justify-content: space-between;
-    }
+body {
+    justify-content: center;
+    align-items: center;
+}
 }
     
