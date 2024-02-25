@@ -63,8 +63,11 @@ body {
     font-weight: bold;
 }
 
-
-
+.nav-responsive{
+    display: none;
+    font-size: 25px;
+    color: #a8a8a8;
+}
 
 p {
     font-family: 'Comic sans ms', sans-serif;
@@ -76,10 +79,9 @@ p {
 h2 {
     font-family: 'raleway', 'sans-serif';
     font-size: 50px;
-    font-weight: bold;
+    font-weight:bolder;
     font-style: italic;
-    color: 
-    white;
+    color: white;
     text-align: center;
 }
 
@@ -136,8 +138,6 @@ h2 {
 .skills{
     width: 90%;
     background-blend-mode: color-burn;
-    border-radius: 12px;
-    margin: 0 auto;
 }
 
 .skills-icons{
@@ -147,6 +147,10 @@ h2 {
     justify-content: space-around;
 }
 
+.logos-skill {
+    border-radius: 0.75rem;
+    margin: 0.5rem
+}
 .proyectos{
     width: 90%;
     background-blend-mode: color-burn;
@@ -201,7 +205,17 @@ h2 {
     margin: 10px;
 
 }
+.copyrigth {
+    justify-content: center;
+    flex-direction: wrap;
+    align-items: center;
+    display: flex;
+}
 
+.copyrigth img {
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
 .copyrigth p {
     display: flex;
     justify-content: center;
@@ -213,9 +227,27 @@ h2 {
 }
 
 @media (max-width: 769px){
+
 body {
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
+
+header {
+    display: none;
+}
+
+.skills{
+    grid-template-columns: 1fr 1fr;
+}
+.skills-icons{
+    
+    align-items: center;
+    flex-direction: column ;
+    position: relative;
+}
+
+
+
 }
     
