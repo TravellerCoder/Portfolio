@@ -19,7 +19,7 @@ body {
 #inicio header{
     width: 100%;
 }
-#inicio header .contenido-header{
+#inicio header {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -29,26 +29,26 @@ body {
     position: relative;
 
 }
-#inicio header .contenido-header nav{
+#inicio header nav{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     align-items: flex-end;
 }
-#inicio header .contenido-header nav ul{
+#inicio header nav ul{
     display: flex;
     list-style: none;
 }
 
-#inicio header .contenido-header nav ul li{
+#inicio header nav ul li{
     text-align: left;
 }
-#inicio header .contenido-header nav ul li i{
+#inicio header nav ul li i{
     display: block;
     color: #a8a8a8;
     margin-bottom: 10px;
 }
-#inicio header .contenido-header nav ul li a{
+#inicio header nav ul li a{
     display: block;
     text-decoration: none;
     color:#a8a8a8;
@@ -57,17 +57,12 @@ body {
     font-family: 'raleway', 'sans-serif';
 }
 
-#inicio header .contenido-header nav ul li a span{
+#inicio header nav ul li a span{
     font-family: 'raleway', 'sans-serif';
     font-style: italic;
     font-weight: bold;
 }
 
-.nav-responsive{
-    display: none;
-    font-size: 25px;
-    color: #a8a8a8;
-}
 
 p {
     font-family: 'Comic sans ms', sans-serif;
@@ -233,7 +228,7 @@ body {
     flex-direction: column;
 }
 
-header {
+#inicio header {
     display: none;
 }
 
@@ -247,7 +242,6 @@ header {
     position: relative;
 }
 
-
-
 }
+
     
