@@ -8,7 +8,7 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    background-image: url(../images/portfolio-fondo.jpg); 
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/586/469/non_2x/advanced-digital-network-connection-internet-computer-technology-background-vector.jpg); 
     background-size: cover;
 }
 #inicio{
@@ -85,7 +85,6 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 90%;
-    background-blend-mode: color-burn;
     border-radius: 12px;
     margin: 0 auto;
     align-items: center;
@@ -109,7 +108,6 @@ h2 {
 .traveller-coder{
     width: 90%;
     background-color: #ffffff05;
-    backdrop-filter: blur(5px);
     border-radius: 12px;
     margin: 0 auto;
 }
@@ -126,7 +124,7 @@ h2 {
 }
 
 .traveller-coder p:hover{
-    transition: 100ms;
+    transition: 500ms;
     font-size: 35px;
 }
 
@@ -194,8 +192,8 @@ h2 {
 }
 
 .contacto-img{
-    width: 75px;
-    height: 75px;
+    width: 45px;
+    height: 45px;
     border-radius: 15%;
     margin: 10px;
 
@@ -230,6 +228,10 @@ body {
 
 #inicio header {
     display: none;
+}
+
+.traveller-coder p:hover{
+    display: block;
 }
 
 .skills{
