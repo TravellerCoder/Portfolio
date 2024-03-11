@@ -17,11 +17,9 @@ body {
     display: flex;
     flex-direction: column;
 }
-#inicio header{
-    width: 100%;
-}
+
 #inicio header {
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -82,6 +80,83 @@ h2 {
     justify-content: center;
 }
 
+.translate {
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    width: 95%;
+    
+}
+
+.translate ul {
+    padding-left: 0;
+    list-style: none ;
+}
+
+.translate a {
+    text-decoration: none;
+    color: white;
+    border: antiquewhite 1px solid;
+}
+
+.translate img {
+    width: 25px;
+    height: 35px;
+}
+
+.translate button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.translate button:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.idioma {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+.idiomas {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    margin-top: 35px;
+    visibility: hidden;
+}
+
+.idiomas li {
+    width: 100%;
+
+}
+
+.idiomas li a {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+.idiomas li a:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.idiomas li a img {
+    border-radius: 3px;
+}
+
+.toggle {
+    visibility: visible;
+
+}
 
 .perfil{
     display: flex;
