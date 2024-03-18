@@ -8,8 +8,9 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/004/586/469/non_2x/advanced-digital-network-connection-internet-computer-technology-background-vector.jpg); 
-    background-size: cover;
+    /*background-image: url(https://static.vecteezy.com/system/resources/previews/004/586/469/non_2x/advanced-digital-network-connection-internet-computer-technology-background-vector.jpg); 
+    background-size: cover;*/
+    background-color: black;
 
 }
 #inicio{
@@ -94,7 +95,7 @@ h2 {
     list-style: none ;
 }
 
-.translate a {
+.translate a.idioma {
     text-decoration: none;
     color: white;
     border: antiquewhite 1px solid;
@@ -105,18 +106,18 @@ h2 {
     height: 35px;
 }
 
-.translate button {
+/*.translate button {
     background-color: transparent;
     border: none;
     color: white;
     font-style: italic;
     font-weight: bold;
-
+    cursor: pointer;
 }
 
 .translate button:hover {
     background-color: rgb(222, 222, 222);
-}
+}*/
 
 .idioma {
     display: flex;
@@ -143,6 +144,7 @@ h2 {
     padding: 10px;
     font-size: 15px;
     color: antiquewhite;
+    text-decoration: none;
 }
 
 .idiomas li a:hover {
