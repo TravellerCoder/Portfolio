@@ -1,6 +1,8 @@
+
 const idiomaActual = document.getElementById("idioma");
 const listaIdiomas = document.getElementById("idiomas");
 const idiomas = document.getElementsByClassName("opcion");
+const english = document.getElementById("english");
 
 /* Toggle de opcion idiomas*/
 
@@ -12,7 +14,20 @@ const opcionesArray = Array.from(idiomas);
 
 opcionesArray.forEach((opcion) => {
     opcion.addEventListener("click", () => {
-        const idioma = opcion.getElementsByTagName('span')[0];
-        console.log(idioma);
+        const idioma = opcion.textContent.trim();
+        establecerIdioma(idioma);
     });
 });
+
+function establecerIdioma(idioma) { 
+    idiomaActual.getElementsByTagName('img')[0].src = `../images/${idioma}.png`;
+    
+    if (idioma === 'English'){
+        console.log('english')
+        window.location.href =  '/english'
+    }
+
+}
+
+
+
