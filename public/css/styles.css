@@ -8,11 +8,10 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    /*background-image: url(https://static.vecteezy.com/system/resources/previews/004/586/469/non_2x/advanced-digital-network-connection-internet-computer-technology-background-vector.jpg); 
-    background-size: cover;*/
-    background-color: black;
-
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/586/469/non_2x/advanced-digital-network-connection-internet-computer-technology-background-vector.jpg); 
+    background-size: cover;
 }
+
 #inicio{
     height: 100vh;
     display: flex;
@@ -102,8 +101,9 @@ h2 {
 }
 
 .translate img {
-    width: 25px;
-    height: 35px;
+    width: 35px;
+    height: 45px;
+    border: none;
 }
 
 /*.translate button {
@@ -147,10 +147,9 @@ h2 {
     text-decoration: none;
 }
 
-.idiomas li a:hover {
+/*.idiomas li a:hover {
     background-color: rgb(222, 222, 222);
-}
-
+}*/
 .idiomas li a img {
     border-radius: 3px;
 }
@@ -301,6 +300,17 @@ body {
 }
 
 #inicio header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+#inicio header nav{
     display: none;
 }
 
@@ -308,6 +318,35 @@ body {
     display: block;
 }
 
+.translate {
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    width: 95%;
+    
+}
+
+.translate ul {
+    padding-left: 0;
+    list-style: none ;
+}
+
+.translate a.idioma {
+    text-decoration: none;
+    color: white;
+    border: antiquewhite 1px solid;
+}
+
+.translate img {
+    width: 35px;
+    height: 45px;
+    border: none;
+}
+
+.idiomas{
+    margin-top: 10px;
+}
 .skills{
     box-sizing: border-box;
     display: grid;
