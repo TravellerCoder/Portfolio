@@ -267,6 +267,11 @@ h2 {
     width: auto;
     height: 250px;
 }
+
+.img-sitio img:hover {
+    transform: scale(3.1);
+}
+
 .contacto{
     width: 90%;
     background-blend-mode: color-burn;
