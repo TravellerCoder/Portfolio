@@ -21,7 +21,7 @@ opcionesArray.forEach((opcion) => {
 });
 
 function establecerIdioma(idioma) { 
-    idiomaActual.getElementsByTagName('img')[0].src = `../images/${idioma}.png`;
+    idiomaActual.getElementsByTagName('img')[0].src = `../images/${idioma}.webp`;
     
     if (idioma === 'English'){
         window.location.href = '/english';
@@ -31,9 +31,7 @@ function establecerIdioma(idioma) {
 
 }
 
-document.addEventListener(DOMContentLoaded, () => {
-    console.log(navigator.language);
-});
+
 
 
 

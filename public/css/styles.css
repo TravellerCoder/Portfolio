@@ -252,6 +252,21 @@ h2 {
     height: 70px;
     border-radius: 7px;
 }
+
+.img-sitio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+}
+
+.img-sitio img {
+    border-radius: 7px;
+    width: auto;
+    height: 250px;
+}
 .contacto{
     width: 90%;
     background-blend-mode: color-burn;
