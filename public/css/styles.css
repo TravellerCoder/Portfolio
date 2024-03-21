@@ -381,6 +381,22 @@ body {
     align-items: center;
 }
 
+.img-sitio {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+}
+
+.img-sitio img {
+    border-radius: 7px;
+    width: 90vw;
+    height: 250px;
+}
+
 }
 
     
