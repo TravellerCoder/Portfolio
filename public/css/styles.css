@@ -270,6 +270,7 @@ h2 {
 
 .img-sitio img:hover {
     transform: scale(3.1);
+    background-blend-mode:darken;
 }
 
 .contacto{
