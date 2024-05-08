@@ -4,15 +4,16 @@ html {
 
 * {
     box-sizing: border-box;
-    
+
 }
+
 body {
     font-family: 'Roboto Slab', sans-serif;
     background-image: url(../images/fondo-negro.avif);
     background-size: cover;
 }
 
-#inicio{
+#inicio {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,35 +29,39 @@ body {
     position: relative;
 
 }
-#inicio header nav{
+
+#inicio header nav {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     align-items: flex-end;
 }
-#inicio header nav ul{
+
+#inicio header nav ul {
     display: flex;
     list-style: none;
 }
 
-#inicio header nav ul li{
+#inicio header nav ul li {
     text-align: left;
 }
-#inicio header nav ul li i{
+
+#inicio header nav ul li i {
     display: block;
     color: #a8a8a8;
     margin-bottom: 10px;
 }
-#inicio header nav ul li a{
+
+#inicio header nav ul li a {
     display: block;
     text-decoration: none;
-    color:#a8a8a8;
+    color: #a8a8a8;
     margin: 0px 20px;
     font-size: 35px;
     font-family: 'raleway', 'sans-serif';
 }
 
-#inicio header nav ul li a span{
+#inicio header nav ul li a span {
     font-family: 'raleway', 'sans-serif';
     font-style: italic;
     font-weight: bold;
@@ -65,7 +70,7 @@ body {
 
 p {
     font-family: 'Comic sans ms', sans-serif;
-    font-size: 35; 
+    font-size: 35;
     font-style: italic;
     text-align: center;
 }
@@ -73,7 +78,7 @@ p {
 h2 {
     font-family: 'raleway', 'sans-serif';
     font-size: 50px;
-    font-weight:bolder;
+    font-weight: bolder;
     font-style: italic;
     color: white;
     text-align: center;
@@ -86,12 +91,12 @@ h2 {
     justify-content: end;
     margin: auto;
     width: 95%;
-    
+
 }
 
 .translate ul {
     padding-left: 0;
-    list-style: none ;
+    list-style: none;
 }
 
 .translate a.idioma {
@@ -144,7 +149,7 @@ h2 {
 
 }
 
-.perfil{
+.perfil {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -153,29 +158,29 @@ h2 {
     align-items: center;
 }
 
-.perfil img{
-    border-radius:25px;
+.perfil img {
+    border-radius: 25px;
     margin-top: 25px;
 }
 
-.perfil p{
+.perfil p {
     font-family: 'raleway', 'sans-serif';
     font-size: 45px;
     font-weight: bold;
     font-style: italic;
-    color:antiquewhite;
-    
-    
+    color: antiquewhite;
+
+
 }
 
-.traveller-coder{
+.traveller-coder {
     width: 90%;
     background-color: #ffffff05;
     border-radius: 12px;
     margin: 0 auto;
 }
 
-.traveller-coder p{
+.traveller-coder p {
     display: flex;
     text-align: center;
     padding: 10px;
@@ -183,17 +188,17 @@ h2 {
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-.skills{
+.skills {
     width: 100vw;
 }
 
-.skills-icons{
+.skills-icons {
     display: flex;
     align-items: center;
-    flex-direction:row ;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -201,26 +206,27 @@ h2 {
     border-radius: 0.75rem;
     margin: 0.5rem
 }
-.proyectos{
+
+.proyectos {
     width: 90%;
     background-blend-mode: color-burn;
     border-radius: 12px;
     margin: 0 auto;
 }
 
-.proyectos h3{
+.proyectos h3 {
     font-family: 'raleway', 'sans-serif';
     font-size: 35px;
     font-weight: bold;
     font-style: italic;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-.proyectos a{
+.proyectos a {
     text-decoration: none;
 }
 
-.proyectos p{ 
+.proyectos p {
     display: flex;
     text-align: justify;
     padding: 10px;
@@ -228,10 +234,10 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-.mototire{
+.mototire {
     width: 200px;
     height: 70px;
     border-radius: 7px;
@@ -261,31 +267,82 @@ h2 {
     z-index: auto;
 }
 
-.enlace{
+.enlace {
     display: flex;
     align-self: center;
 
 }
 
-.contacto{
-    width: 90%;
-    background-blend-mode: color-burn;
-    border-radius: 12px;
-    margin: 0 auto;
-}
-
-.contacto-links{
+.contactos {
     display: flex;
     justify-content: center;
+    list-style: none;
+    gap: 2.5rem;
 }
 
-.contacto-img{
-    width: 45px;
-    height: 45px;
-    border-radius: 15%;
-    margin: 10px;
-
+.contactos-item a {
+    text-decoration: none;
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: #f0f9fe;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    border: 3px solid #f0f9fe;
+    overflow: hidden;
 }
+
+.contactos-item a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: 0;
+    scale: 1 0;
+    transform-origin: bottom;
+    transition: scale 0.5s ease;
+}
+
+.contactos-item:hover a::before {
+    scale: 1 1;
+}
+
+.icon {
+    font-size: 2rem;
+    color: hsl(203, 92%, 8%);
+    transition: 0.5s ease;
+    z-index: 2;
+}
+
+.contactos-item a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.contactos-item:nth-child(1) {
+    --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.contactos-item:nth-child(2) {
+    --bg-color: #0077b5;
+}
+
+.contactos-item:nth-child(3) {
+    --bg-color: #ff0000;
+}
+
+.contactos-item:nth-child(4) {
+    --bg-color: #000;
+}
+
+.contactos-item:nth-child(5) {
+    --bg-color: #04e622;
+}
+
 .copyrigth {
     justify-content: center;
     flex-direction: wrap;
@@ -297,6 +354,7 @@ h2 {
     margin-left: 1rem;
     border-radius: 1rem;
 }
+
 .copyrigth p {
     display: flex;
     justify-content: center;
@@ -307,96 +365,96 @@ h2 {
     color: antiquewhite;
 }
 
-@media (max-width: 769px){
+@media (max-width: 769px) {
 
-body {
-    display: flex;
-    flex-direction: column;
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #inicio header {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding-top: 10px;
+        position: relative;
+
+    }
+
+    #inicio header nav {
+        display: none;
+    }
+
+    .traveller-coder p:hover {
+        display: block;
+    }
+
+    .translate {
+        padding: 15px;
+        display: flex;
+        justify-content: end;
+        margin: auto;
+        width: 95%;
+
+    }
+
+    .translate ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .translate a.idioma {
+        text-decoration: none;
+        color: white;
+        border: antiquewhite 1px solid;
+    }
+
+    .translate img {
+        width: 35px;
+        height: 45px;
+        border: none;
+    }
+
+    .idiomas {
+        margin-top: 10px;
+    }
+
+    .skills {
+        box-sizing: border-box;
+        display: grid;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .skills-icons {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sitio {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .img-sitio img {
+        border-radius: 7px;
+        width: 90vw;
+        height: 250px;
+    }
+
+    .img-sitio img.no-large {
+        pointer-events: none;
+
+    }
+
 }
-
-#inicio header {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    padding-top: 10px;
-    position: relative;
-
-}
-
-#inicio header nav{
-    display: none;
-}
-
-.traveller-coder p:hover{
-    display: block;
-}
-
-.translate {
-    padding: 15px;
-    display: flex;
-    justify-content: end;
-    margin: auto;
-    width: 95%;
-    
-}
-
-.translate ul {
-    padding-left: 0;
-    list-style: none ;
-}
-
-.translate a.idioma {
-    text-decoration: none;
-    color: white;
-    border: antiquewhite 1px solid;
-}
-
-.translate img {
-    width: 35px;
-    height: 45px;
-    border: none;
-}
-
-.idiomas{
-    margin-top: 10px;
-}
-.skills{
-    box-sizing: border-box;
-    display: grid;
-    width: 100vw;
-    align-items: center;
-}
-
-.skills-icons{
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-sitio {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 95%;
-    margin: auto;
-    gap: 10px;
-}
-
-.img-sitio img {
-    border-radius: 7px;
-    width: 90vw;
-    height: 250px;
-}
-
-.img-sitio img.no-large{
-    pointer-events: none;
-
-}
-
-}
-
