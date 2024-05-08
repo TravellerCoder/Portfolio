@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Roboto Slab', sans-serif;
-    font-weight: bold;
+
     font-style: italic;
     background-image: url(../images/fondo-negro.avif);
     background-size: cover;
@@ -256,6 +256,10 @@ h2 {
 
 }
 
+.caja-principal {
+    margin: 40px;
+}
+
 .contactos {
     display: flex;
     justify-content: center;
@@ -331,6 +335,7 @@ h2 {
     flex-direction: wrap;
     align-items: center;
     display: flex;
+    margin-top: 50px;
 }
 
 .copyrigth img {
