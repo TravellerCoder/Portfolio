@@ -7,8 +7,8 @@ html {
     
 }
 body {
-    font-family: 'Raleway', sans-serif;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/004/586/469/non_2x/advanced-digital-network-connection-internet-computer-technology-background-vector.jpg); 
+    font-family: 'Roboto Slab', sans-serif;
+    background-image: url(../images/fondo-negro.avif);
     background-size: cover;
 }
 
@@ -365,7 +365,8 @@ body {
 .skills{
     box-sizing: border-box;
     display: grid;
-    width: 100%;
+    width: 100vw;
+    align-items: center;
 }
 
 .skills-icons{
