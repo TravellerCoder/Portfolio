@@ -72,7 +72,6 @@ p {
 
 h2 {
     font-size: 50px;
-    font-weight: bolder;
     font-style: italic;
     color: white;
     text-align: center;
@@ -162,14 +161,13 @@ h2 {
     color: antiquewhite;
 }
 
-.traveller-coder {
+.conoceme {
     width: 90%;
-    background-color: #ffffff05;
     border-radius: 12px;
     margin: 0 auto;
 }
 
-.traveller-coder p {
+.conoceme p {
     display: flex;
     text-align: center;
     padding: 10px;
@@ -202,7 +200,6 @@ h2 {
 
 .proyectos h3 {
     font-size: 35px;
-    font-weight: bold;
     font-style: italic;
     color: antiquewhite;
 }
@@ -353,17 +350,15 @@ h2 {
 @media (max-width: 769px) {
 
     body {
+        
         display: flex;
         flex-direction: column;
     }
 
     #inicio header {
-        width: 100%;
-        margin: auto;
-        display: flex;
         justify-content: space-between;
         align-items: end;
-        padding-top: 10px;
+
         position: relative;
 
     }
@@ -376,11 +371,20 @@ h2 {
         display: block;
     }
 
+    .perfil {
+        justify-content: center;
+        position: relative;
+    }
+
+    .nav {
+        width: 100vw;
+    }
+
+
     .translate {
-        padding: 15px;
+        padding: 1.5px;
         display: flex;
         justify-content: end;
-        margin: auto;
         width: 95%;
 
     }
@@ -408,9 +412,11 @@ h2 {
 
     .skills {
         box-sizing: border-box;
-        display: grid;
+        display: flex;
+        flex-direction: column;
         width: 100vw;
         align-items: center;
+        justify-content: center ;
     }
 
     .skills-icons {
@@ -421,8 +427,13 @@ h2 {
         align-items: center;
     }
 
+    .proyecto-detail{
+        justify-content: center;
+        
+    }
+
     .img-sitio {
-        display: block;
+        display: flexbox;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -440,6 +451,41 @@ h2 {
     .img-sitio img.no-large {
         pointer-events: none;
 
+    }
+
+    .contactos-item a {
+        text-decoration: none;
+        width: 2.8rem;
+        height: 2.8rem;
+        background-color: var(--bg-color);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        border: 3px solid #f0f9fe;
+        overflow: hidden;
+    }
+
+    .contactos-item:nth-child(1) {
+        --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+    }
+    
+    .contactos-item:nth-child(2) {
+        --bg-color: #0077b5;
+    }
+    
+    .contactos-item:nth-child(3) {
+        --bg-color: #ff0000;
+    }
+    
+    .contactos-item:nth-child(4) {
+        --bg-color: #000;
+    }
+    
+    .contactos-item:nth-child(5) {
+        --bg-color: #04e622;
     }
 
 }
