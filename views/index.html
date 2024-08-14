@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" href="/css/styles.css ">
-    <link rel="stylesheet" href="/css/normalize.css ">
     <title>Traveller Coder</title>
 </head>
 
@@ -19,35 +18,12 @@
     <!-- SECCION INICIO -->
     <section id="inicio">
         <header>
-            <nav id="nav" class="nav">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#conoceme" onclick="seleccionar()">
-
-                            <span>Conoceme</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#skills" onclick="seleccionar()">
-
-                            <span>Skills</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#proyectos" onclick="seleccionar()">
-
-                            <span>Proyectos</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#contacto" onclick="seleccionar()">
-
-                            <span>Contactame</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="nav-list">
+                <li><a href="#conoceme" onclick="selecionar()">Conoceme</a></li>
+                <li><a href="#skills" onclick="selecionar()">Skills </a></li>
+                <li><a href="#proyectos" onclick="selecionar()">Proyectos</a></li>
+                <li><a href="#contactos" onclick="selecionar()">Contacto</a></li>
+            </ul>
             <div class="translate">
                 <a href="#" id="idioma" class="idioma">
                     <img src="images/Español.png" alt="icono bandera">
@@ -70,17 +46,20 @@
             </div>
 
         </header>
-        <!-- SECCION PERFIL -->
-        <div class="caja-principal contenedor">
-            <article class="perfil">
-                <img src="images/logo-1.png" alt='foto de perfil' width=200px>
-                <p>Traveller Coder <br>
-                    Desarrollador Web Full Stack</p>
-            </article>
-        </div>
-        <div id="conoceme" class="conoceme ">
-            
-                <h2>Conoceme</h2>
+        <!-- SECCION HERO -->
+        <section class="hero">
+            <div class="hero-text">
+                <h4>Full Stack Dev</h4>
+                <h3>JavaScript NodeJS</h3>
+                <h1>Traveller Coder</h1>
+                <p>Desarrollo Web para empresas y freelance. <br>
+                    Tu idea de sitio web esta a un click de volverse real</p>
+                    <a href="#" class="cv"><i class="ri-stack-line"></i>CV</a>
+                    <a href="#contacto" class="hablemos"><i class="ri-whatsapp-fill"></i>Hablemos</a>
+            </div>
+
+            <div id="conoceme" class="conoceme ">
+                <h2></h2>
                 <p>Soy Guillermo Bukowski, argentino, desarrollador web y viajero en casa rodante. Con el desarrollo
                     financio mi
                     viaje de Argentina a Alaska.<br>
@@ -90,8 +69,8 @@
                     trabajo
                     en equipo. Siempre en movimiento, tanto profesionalmente como en la vida de viajero.
                 </p>
-            
         </div>
+        </section>
         <div id='skills' class="caja-principal contenedor">
             <article class='skills'>
                 <h2>Skills</h2>
