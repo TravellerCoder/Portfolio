@@ -327,7 +327,7 @@ section {
 }
 
 .contactos-item:nth-child(1) {
-    --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+    --bg-color: #04e622;
 }
 
 .contactos-item:nth-child(2) {
@@ -343,7 +343,7 @@ section {
 }
 
 .contactos-item:nth-child(5) {
-    --bg-color: #04e622;
+    --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7) ;
 }
 
 .copyrigth {
